@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Narae's Meal Planner</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+	<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+	<h1>Narae's Meal Planner</h1>
+
+	<h2>Choose How Many Meals You Need in a Week</h2>
+	<form id="mealAmount">
+		Breakfast:
+		<input type="number" id="inputBreakfast" name="breakfast" min="0" max="7" value="0">
+		Lunch:
+		<input type="number" id="inputLunch" name="lunch" min="0" max="7" value="0">
+		Dinner:
+		<input type="number" id="inputDinner" name="dinner" min="0" max="7" value="0">
+		Snack:
+		<input type="number" id="inputSnack" name="snack" min="0" max="7" value="0">
+		<input type="submit">
+	</form>
+
+	<h2>Weekly Meal Plan</h2>
+	<table id="mealPlanCanvas"></table>
+
+
+
+<!-- 	<h2>Grocery List</h2>
+	<h2>Prep Guide</h2>
+	<h2>Recipes</h2>
+	
+ -->	
+<!-- print 기능 넣기 -->
+	<script src="designs.js"></script>
+
+</body>
+</html>
