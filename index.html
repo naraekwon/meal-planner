@@ -7,24 +7,44 @@
 
 </head>
 <body>
-	<h1>Narae's Meal Planner</h1>
+	<header>
+		<h1>Narae's Meal Planner</h1>
+	</header>
+	<content>
+		<div class="planner">
+			<h2>Choose How Many Meals You Need in a Week</h2>
+			<form id="mealAmount">
+				<div class="breakfast">
+					Breakfast:
+					<input type="number" id="inputBreakfast" name="breakfast" min="0" max="7" value="0">
+			 	</div>
+			 	<div class="lunch">
+					Lunch:
+					<input type="number" id="inputLunch" name="lunch" min="0" max="7" value="0">
+				</div>
+				<div class="dinner">
+					Dinner:
+					<input type="number" id="inputDinner" name="dinner" min="0" max="7" value="0">
+				</div>
+				<div class="snack">
+					Snack:
+					<input type="number" id="inputSnack" name="snack" min="0" max="7" value="0">
+				</div>
+				<input type="submit">
+			</form>
+		</div>
+		<div class="weekly-meal-plan">
+			<h2>Weekly Meal Plan</h2>
+			<table id="mealPlanCanvas"></table>
+		</div>
+		<div class="shopping list">
+		</div>
+		<div class="prep">
+		</div>
+		<div class="cooking-direction">
+		</div>
 
-	<h2>Choose How Many Meals You Need in a Week</h2>
-	<form id="mealAmount">
-		Breakfast:
-		<input type="number" id="inputBreakfast" name="breakfast" min="0" max="7" value="0">
-		Lunch:
-		<input type="number" id="inputLunch" name="lunch" min="0" max="7" value="0">
-		Dinner:
-		<input type="number" id="inputDinner" name="dinner" min="0" max="7" value="0">
-		Snack:
-		<input type="number" id="inputSnack" name="snack" min="0" max="7" value="0">
-		<input type="submit">
-	</form>
-
-	<h2>Weekly Meal Plan</h2>
-	<table id="mealPlanCanvas"></table>
-
+	</content>
 
 
 <!-- 	<h2>Grocery List</h2>
