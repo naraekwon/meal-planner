@@ -8,52 +8,70 @@
 </head>
 <body>
 	<header>
-		<h1>Narae's Meal Planner</h1>
+		<h1>Narae's Weekly Meal Planner</h1>
 	</header>
-	<content>
+	<main>
 		<div class="planner">
-			<h2>Choose How Many Meals You Need in a Week</h2>
+			<h2>Choose How Many Meals You Need</h2>
 			<form id="mealAmount">
-				<div class="breakfast">
+				<div id="breakfastInput">
 					Breakfast:
 					<input type="number" id="inputBreakfast" name="breakfast" min="0" max="7" value="0">
 			 	</div>
-			 	<div class="lunch">
+			 	<div id="lunchInput">
 					Lunch:
 					<input type="number" id="inputLunch" name="lunch" min="0" max="7" value="0">
 				</div>
-				<div class="dinner">
+				<div id="dinnerInput">
 					Dinner:
 					<input type="number" id="inputDinner" name="dinner" min="0" max="7" value="0">
 				</div>
-				<div class="snack">
+				<div id="snackInput">
 					Snack:
 					<input type="number" id="inputSnack" name="snack" min="0" max="7" value="0">
 				</div>
-				<input type="submit">
+				<div id="submit-btn">
+					<input type="submit">
+				</div>
 			</form>
 		</div>
-		<div class="weekly-meal-plan">
-			<h2>Weekly Meal Plan</h2>
-			<table id="mealPlanCanvas"></table>
+		<div id="weekly-meal-plan">
+			<div id="breakfastContainer">
+				<h3>Breakfast</h3>
+				<ul id="breakfastLists">
+				</ul>
+			</div>
+			<div id="lunchContainer">
+				<h3>Lunch</h3>
+				<ul id="lunchLists">
+				</ul>
+			</div>
+			<div id="dinnerContainer">
+				<h3>Dinner</h3>
+				<ul id="dinnerLists">
+				</ul>
+			</div>
+			<div id="snackContainer">
+				<h3>Snack</h3>
+				<ul id="snackLists">
+				</ul>
+			</div>
 		</div>
-		<div class="shopping list">
-		</div>
-		<div class="prep">
-		</div>
-		<div class="cooking-direction">
-		</div>
+		<!-- <div id="shop-and-prep">
+			<div id="shoppingList">
+			</div>
+			<div id="prep">
+			</div>
+		</div> -->
+		
+		<!-- <div id="cookingDirection">
+		</div> -->
 
-	</content>
-
-
-<!-- 	<h2>Grocery List</h2>
-	<h2>Prep Guide</h2>
-	<h2>Recipes</h2>
-	
- -->	
+	</main>
+	<footer>
+	</footer>
 <!-- print 기능 넣기 -->
-	<script src="designs.js"></script>
+	<script src="scripts.js"></script>
 
 </body>
 </html>

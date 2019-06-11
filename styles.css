@@ -1,83 +1,102 @@
-@media screen and (min-width: 300px){
-	body {
-		font-family: Comfortaa;
-		display: grid;
-		/*grid-template-columns: 1fr;
-		grid-template-rows: 50px auto 1fr auto;
-		grid-template-areas: 
-			"header"
-			"advert"
-			"content"
-			"footer";
-		grid-gap: 10px;*/
-		font-size: 16px;
-	}
+/** GERENAL STYLES **/
 
-	header {
-/*		grid-area: header;
-*/	}
+body {
+	font-family: Comfortaa;
+}
 
-	content {
-/*		grid-area: content;
-		display: grid;
-		grid-template-rows: auto auto ;
-*/	}
+h2 {
+	font-size: 20px;
+	margin: 0px;
+	padding: 0px;
+}
 
-	.planner {
-/*		display: grid;
-*/	}
+span, ul {
+	font-size: 16px;
+}
+/** HEADER **/
+header {
+	padding-left: 8px;
+}
 
-	#mealAmount {
-/*		display: grid;
-		grid-template-rows: 20px;
-*/	}
+/** PLANNER INPUT **/
+.planner {
+	width: 100%;
+	margin: 10px;
+}
 
-	h1 {
-		font-family: Comfortaa;
-		font-size: 40px;
-		margin: 0.2em;
-	}
+#mealAmount {
+	display: flex;
+}
 
-	h2 {
-		margin: 1em 0 0 0.25em;
-		font-size: 20px;
-	}
+#mealAmount > div {
+	display: inline;
+	padding: 10px;
+}
 
-	h2: first-of-type {
-		margin-top: 0.5em;
-	}
+/** MEAL PLAN CONTAINERS **/
+#weekly-meal-plan {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+#weekly-meal-plan > div {
+	width: 23%;
+	min-width: 200px;
+	min-height: 400px;
+	padding: 5px;
+	background-color: rgba(139, 176, 11, 0.2);
+	border-radius: 5px;
+}
+
+#weekly-meal-plan > div > h3 {
+	margin: 0px;
+	padding: 13px;
+	border-bottom: 2px solid rgba(139, 176, 11, 0.4);
+}
+
+#weekly-meal-plan > div > ul {
+	padding-left: 20px;
+}
+
+#weekly-meal-plan > div > ul > li {
+	padding-bottom: 10px;
+	font-size: 16px;
 }
 
 
 
-@media screen and (min-width: 400px) {
-	body {
-/*		grid-template-rows: auto auto 1fr auto;
-*/
-	}
+/** SHOPPING LISTS **/
+#shop-and-prep {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
 }
 
+#shoppingList {
+	width: 50%;
+	min-width: 200;
+	min-height: 400px;
+	margin: 5px;
+	padding: 5px;
+	background-color: rgba(139, 176, 11, 0.2);
+	border-radius: 5px;
 
-
-
-/*table,
-tr,
-td {
-	border: 1px gray;
 }
 
-table {
-	border-collapse: collapse;
-	margin: 0 auto;
+/** PREP **/
+
+#prep {
+	width: 50%;
+	min-width: 200;
+	min-height: 400px;
+	margin: 5px;
+	padding: 5px;
+	background-color: rgba(139, 176, 11, 0.2);
+	border-radius: 5px;
+
 }
 
-tr {
-	height: 100px;
-}
-
-td {
-	width: 100px;
-}*/
 
 input[type=number] {
 	width: 5em;

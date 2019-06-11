@@ -183,8 +183,8 @@ var model = {
 			mainIngredient: 'fish',
 			ingredient: ['fish stick', 'apple', ''],
 			prep: [],
-			cookingDirection: []
-			reference: ['https://www.culinaryhill.com/easy-apple-coleslaw-recipe/']
+			cookingDirection: [],
+			// reference: ["https://www.culinaryhill.com/easy-apple-coleslaw-recipe/"]
 		},
 		{
 			name: 'Mungbean Pancake',
@@ -283,7 +283,7 @@ var model = {
 			cookingDirection: []
 		},
 		{
-			name: 'Kabocha Ricecake(단호박설기떡)',
+			name: 'Kabocha Ricecake(백설기)',
 			mainIngredient: '',
 			ingredient: [],
 			prep: [],
@@ -376,15 +376,11 @@ var weeklyPlanView = {
 
 	render: function(){
 		let mealAmount = document.querySelector('#mealAmount');
+		//LUNCH
 		let lunchContainer = document.querySelector('#lunchContainer');
 		let lunchLists = document.querySelector('#lunchLists');
 		let lunchInput = document.querySelector('#inputLunch');
 		var lunchRandomArray = controller.getRandomLunch();
-
-		let snackContainer = document.querySelector('#snackContainer');
-		let snackLists = document.querySelector('#snackLists');
-		let snackInput = document.querySelector('#inputSnack');
-		var snackRandomArray = controller.getRandomSnack();
 		//remove existing lunch menu lists on
 		while (lunchLists.firstElementChild !== null){
 			lunchLists.firstElementChild.remove();
@@ -392,12 +388,18 @@ var weeklyPlanView = {
 		//create lunch menu lists 
 		for (let i = 0; i < lunchInput.value; i ++) {			
 			lunchLists.innerHTML += `<li>${lunchRandomArray[i].name}</li>`;
-		};		
+		};	
 
+		//SNACK
+		let snackContainer = document.querySelector('#snackContainer');
+		let snackLists = document.querySelector('#snackLists');
+		let snackInput = document.querySelector('#inputSnack');
+		var snackRandomArray = controller.getRandomSnack();
+		//remove existing snack menu lists on
 		while (snackLists.firstElementChild !== null){
 			snackLists.firstElementChild.remove();
 		};
-
+		//create snack menu lists
 		for (let i = 0; i < snackInput.value; i++) {
 			snackLists.innerHTML += `<li>${snackRandomArray[i].name}</li>`;
 		}
