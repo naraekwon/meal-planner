@@ -8,7 +8,7 @@
 </head>
 <body>
 	<header>
-		<h1>Narae's Weekly Meal Planner</h1>
+		<h1>Narae's Meal Planner</h1>
 	</header>
 	<main>
 		<div class="planner">
@@ -16,19 +16,19 @@
 			<form id="mealAmount">
 				<div id="breakfastInput">
 					Breakfast:
-					<input type="number" id="inputBreakfast" name="breakfast" min="0" max="7" value="0">
+					<input type="number" id="inputBreakfast" name="breakfast" min="0" max="4" placeholder="0 to 4">
 			 	</div>
 			 	<div id="lunchInput">
 					Lunch:
-					<input type="number" id="inputLunch" name="lunch" min="0" max="7" value="0">
+					<input type="number" id="inputLunch" name="lunch" min="0" max="7" placeholder="0 to 7">
 				</div>
 				<div id="dinnerInput">
 					Dinner:
-					<input type="number" id="inputDinner" name="dinner" min="0" max="7" value="0">
+					<input type="number" id="inputDinner" name="dinner" min="0" max="7" placeholder="0 to 7">
 				</div>
 				<div id="snackInput">
 					Snack:
-					<input type="number" id="inputSnack" name="snack" min="0" max="7" value="0">
+					<input type="number" id="inputSnack" name="snack" min="0" max="10" placeholder="0 to 10">
 				</div>
 				<div id="submit-btn">
 					<input type="submit">
@@ -40,20 +40,28 @@
 				<h3>Breakfast</h3>
 				<ul id="breakfastLists">
 				</ul>
+				<ul id="breakfastPrep">
+				</ul>
 			</div>
 			<div id="lunchContainer">
 				<h3>Lunch</h3>
 				<ul id="lunchLists">
+				</ul>
+				<ul id="lunchPrep">
 				</ul>
 			</div>
 			<div id="dinnerContainer">
 				<h3>Dinner</h3>
 				<ul id="dinnerLists">
 				</ul>
+				<ul id="dinnerPrep">
+				</ul>
 			</div>
 			<div id="snackContainer">
 				<h3>Snack</h3>
 				<ul id="snackLists">
+				</ul>
+				<ul id="snackPrep">
 				</ul>
 			</div>
 		</div>

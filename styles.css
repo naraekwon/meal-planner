@@ -62,8 +62,13 @@ header {
 #weekly-meal-plan > div > ul > li {
 	padding-bottom: 10px;
 	font-size: 16px;
+	white-space: wrap;
 }
 
+/** BREAKFAST **/
+/** LUNCH **/
+/** DINNER **/
+/** SNACK **/
 
 
 /** SHOPPING LISTS **/
