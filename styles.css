@@ -4,15 +4,16 @@ body {
 	font-family: Comfortaa;
 }
 
+h1 {
+	color: #386200;
+}
+
 h2 {
 	font-size: 20px;
 	margin: 0px;
 	padding: 0px;
 }
 
-span, ul {
-	font-size: 16px;
-}
 /** HEADER **/
 header {
 	padding-left: 8px;
@@ -30,7 +31,7 @@ header {
 
 #mealAmount > div {
 	display: inline;
-	padding: 10px;
+	padding: 10px 10px 10px 0px;
 }
 
 /** MEAL PLAN CONTAINERS **/
@@ -49,10 +50,19 @@ header {
 	border-radius: 5px;
 }
 
-#weekly-meal-plan > div > h3 {
+#weekly-meal-plan > div h3 {
 	margin: 0px;
-	padding: 13px;
+/*	border-bottom: 2px solid rgba(139, 176, 11, 0.4);
+*/}
+
+#weekly-meal-plan > div > span {
+	font-size: 13px;
+}
+
+.containerTitle {
 	border-bottom: 2px solid rgba(139, 176, 11, 0.4);
+	margin: 10px 5px;
+	padding-bottom: 5px;
 }
 
 #weekly-meal-plan > div > ul {

@@ -1,28 +1,28 @@
 var model = {
 	breakfastMenus: [
 		{
-			name: 'Pancake w/ maple syrup, seasonal fruit, milk',
+			name: 'Pancake w/ maple syrup, scrambled egg',
 			mainIngredient: 'pancake',
 			ingredient: ['a','b', 'c'],
 			prep: ['Make the batter a night before.', 'Cut up fruits.'],
 			cookingDirection: ['1. Grease and heat the pan.']
 		},
 		{
-			name: 'Zucchini Bread w/ boiled/fried/scrambled egg, milk',
+			name: 'Zucchini Bread w/ boiled/fried/scrambled egg',
 			mainIngredient: '',
 			ingredient: [],
 			prep: ['Make the mini zucchini bread for the weeks.'],
 			cookingDirection: []
 		},
 		{
-			name: 'Waffle w/ maple syrup, seasonal fruit, scrambled egg, milk',
+			name: 'Waffle w/ maple syrup, scrambled egg',
 			mainIngredient: '',
 			ingredient: [],
 			prep: ['Make the egg batter a night before.', 'Cut up fruits.'],
 			cookingDirection: []
 		},
 		{
-			name: 'Overnight Oatmeal w/ honey, seasonal fruit, milk',
+			name: 'Overnight Oatmeal w/ honey',
 			mainIngredient: '',
 			ingredient: [],
 			prep: ['Soak rolled oats overnight in milk a night before.', 'Cut up fruits.'],
@@ -40,28 +40,28 @@ var model = {
 	//the lunch and dinner menus are almost the same.
 	lunchMenus: [
 		{
-			name: 'Don Katsu w/ cabbage salad, sesame dressing, steamed rice, seasonal fruit',
+			name: 'Don Katsu w/ cabbage salad, sesame dressing, steamed rice',
 			mainIngredient: 'pork',
 			ingredient: ['pork top loin', 'cabbage', 'katsu sauce', 'panko', 'egg'],
 			prep: ['1. Make '],
 			cookingDirection: ['bake the katsu in the 400 F preheated oven for about 18 mins']
 		},
 		{
-			name: 'Meatball Pasta w/ carrot, onion, mushroom, seasonal fruit',
+			name: 'Meatball Pasta w/ carrot, onion, mushroom',
 			mainIngredient: 'meatball',
 			ingredient: ['meatball', 'pasta', 'marinara sauce'],
 			prep: ['meatball'],
 			cookingDirection: ['put all the ingredients into instantpot and cook it in low pressure for 15 mins.'],
 		},
 		{
-			name: 'Teriyaki Chicken',
+			name: 'Teriyaki Chicken w/ carrot, mungbean sprout, onion, steamed rice',
 			mainIngredient: 'chicken',
 			ingredient: ['chicken thigh', 'carrot', 'mungbean sprout', 'onion'],
 			prep: [],
 			cookingDirection: []
 		},
 		{
-			name: 'Chicken Nugget',
+			name: 'Chicken Nugget w/ ?? ',
 			mainIngredient: '',
 			ingredient: [],
 			prep: [],
@@ -75,21 +75,21 @@ var model = {
 			cookingDirection: []
 		},
 		{
-			name: 'Hamburg Steak (함박스테이크)',
+			name: 'Hamburg Steak w/ baked potatoes, steamed vege',
 			mainIngredient: '',
 			ingredient: [],
 			prep: [],
 			cookingDirection: []
 		},
 		{
-			name: 'Mini Hamburger',
+			name: 'Mini Hamburger w/ dinner roll, pickles, tomatoes',
 			mainIngredient: '',
 			ingredient: [],
 			prep: [],
 			cookingDirection: []
 		},
 		{
-			name: 'Mac and Cheese',
+			name: 'Cauliflower Chicken Mac and Cheese',
 			mainIngredient: '',
 			ingredient: [],
 			prep: [],
@@ -103,7 +103,7 @@ var model = {
 			cookingDirection: []
 		},
 		{
-			name: 'BBQ Pork',
+			name: 'BBQ Pork w/ steamed rice or baked potatoes, steamed vege',
 			mainIngredient: '',
 			ingredient: [],
 			prep: [],
@@ -138,21 +138,21 @@ var model = {
 			cookingDirection: []
 		},
 		{
-			name: 'Shrimp Pinapple Fried Rice',
+			name: 'Shrimp Pineapple Fried Rice',
 			mainIngredient: '',
 			ingredient: [],
 			prep: [],
 			cookingDirection: []
 		},
 		{
-			name: 'Chicken Quesadilla',
+			name: 'Chicken Quesadilla w/ avocado, tomatoes',
 			mainIngredient: '',
 			ingredient: [],
 			prep: [],
 			cookingDirection: []
 		},
 		{
-			name: 'AB & J Sandwich',
+			name: 'AB & J Sandwich w/ boiled egg',
 			mainIngredient: '',
 			ingredient: [],
 			prep: [],
@@ -166,7 +166,7 @@ var model = {
 			cookingDirection: []
 		},
 		{
-			name: 'Shrimp Tempura',
+			name: 'Shrimp Tempura w/ ??',
 			mainIngredient: '',
 			ingredient: [],
 			prep: [],
@@ -180,14 +180,14 @@ var model = {
 			cookingDirection: [],
 		},
 		{
-			name: 'Mungbean Pancake',
+			name: 'Mungbean Pancake w/ cooked rice, steamed vege ',
 			mainIngredient: '',
 			ingredient: [],
 			prep: [],
 			cookingDirection: []
 		},
 		{
-			name: 'Shrimp Zucchini Pancake',
+			name: 'Shrimp Zucchini Pancake w/ cooked rice, steamed vege',
 			mainIngredient: '',
 			ingredient: [],
 			prep: [],
@@ -201,7 +201,7 @@ var model = {
 			cookingDirection: []
 		},
 		{
-			name: 'Ravioli',
+			name: 'Ravioli ??',
 			mainIngredient: '',
 			ingredient: [],
 			prep: [],
