@@ -4,7 +4,7 @@ var model = {
 			name: 'Pancake w/ maple syrup, scrambled egg',
 			mainIngredient: 'pancake',
 			ingredient: ['a','b', 'c'],
-			prep: ['Make the batter a night before.', 'Cut up fruits.'],
+			prep: ['Make the batter.', 'Cut up fruits.'],
 			cookingDirection: ['1. Grease and heat the pan.']
 		},
 		{
@@ -18,23 +18,30 @@ var model = {
 			name: 'Waffle w/ maple syrup, scrambled egg',
 			mainIngredient: '',
 			ingredient: [],
-			prep: ['Make the egg batter a night before.', 'Cut up fruits.'],
+			prep: ['Make the egg batter.', 'Cut up fruits.'],
 			cookingDirection: []
 		},
 		{
 			name: 'Overnight Oatmeal w/ honey',
 			mainIngredient: '',
 			ingredient: [],
-			prep: ['Soak rolled oats overnight in milk a night before.', 'Cut up fruits.'],
+			prep: ['Soak rolled oats overnight in milk.', 'Cut up fruits.'],
 			cookingDirection: []
 		},
-		// {
-		// 	name: '',
-		// 	mainIngredient: '',
-		// 	ingredient: [],
-		// 	prep: [],
-		// 	cookingDirection: []
-		// },
+		{
+			name: 'Anchovy rice ball',
+			mainIngredient: '',
+			ingredient: [],
+			prep: ['Make fried anchovy and chopped veges.'],
+			cookingDirection: []
+		},
+		{
+			name: 'AB and J Sandwiches w/ scrambled/boiled/fried egg',
+			mainIngredient: '',
+			ingredient: [],
+			prep: [''],
+			cookingDirection: []
+		},
 	],
 
 	//the lunch and dinner menus are almost the same.
@@ -43,49 +50,49 @@ var model = {
 			name: 'Don Katsu w/ cabbage salad, sesame dressing, steamed rice',
 			mainIngredient: 'pork',
 			ingredient: ['pork top loin', 'cabbage', 'katsu sauce', 'panko', 'egg'],
-			prep: ['1. Make '],
-			cookingDirection: ['bake the katsu in the 400 F preheated oven for about 18 mins']
+			prep: ['Make Don Katsu for the week.', 'Cut up the cabbage.', 'Make sesame dressing.'],
+			cookingDirection: ['Bake the katsu in the 400 F preheated oven for about 18 mins']
 		},
 		{
 			name: 'Meatball Pasta w/ carrot, onion, mushroom',
 			mainIngredient: 'meatball',
 			ingredient: ['meatball', 'pasta', 'marinara sauce'],
-			prep: ['meatball'],
+			prep: ['Make meatballs for the week.', 'Finely chop the veges.'],
 			cookingDirection: ['put all the ingredients into instantpot and cook it in low pressure for 15 mins.'],
 		},
 		{
 			name: 'Teriyaki Chicken w/ carrot, mungbean sprout, onion, steamed rice',
 			mainIngredient: 'chicken',
 			ingredient: ['chicken thigh', 'carrot', 'mungbean sprout', 'onion'],
-			prep: [],
+			prep: ['Marinate the chicken.', 'Cut up the all veges.'],
 			cookingDirection: []
 		},
 		{
-			name: 'Chicken Nugget w/ ?? ',
+			name: 'Chicken Nugget w/ homemade potato wedges, steamed broccoli',
+			mainIngredient: '',
+			ingredient: [],
+			prep: ['Cut up the potatoes and soak in the water.', 'Steam the broccoli.'],
+			cookingDirection: []
+		},
+		{
+			name: 'Orange Chicken w/ cooked rice, salad',
 			mainIngredient: '',
 			ingredient: [],
 			prep: [],
 			cookingDirection: []
 		},
 		{
-			name: 'Orange Chicken w/ cooked rice, salads',
+			name: 'Hamburg Steak w/ potato wedges, steamed vege',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
+			prep: ['Make hamburg steak for the week.', 'Cut up the potatoes and soak in the water.', 'Steam the veges.'],
 			cookingDirection: []
 		},
 		{
-			name: 'Hamburg Steak w/ baked potatoes, steamed vege',
+			name: 'Mini Hamburger w/ dinner roll, pickles, diced tomatoes',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
-			cookingDirection: []
-		},
-		{
-			name: 'Mini Hamburger w/ dinner roll, pickles, tomatoes',
-			mainIngredient: '',
-			ingredient: [],
-			prep: [],
+			prep: ['Make patties for the week.', 'Dice tomatoes.'],
 			cookingDirection: []
 		},
 		{
@@ -95,60 +102,74 @@ var model = {
 			prep: [],
 			cookingDirection: []
 		},
+		// {
+		// 	name: 'Pasta Salad (마카로니 샐러드)',
+		// 	mainIngredient: '',
+		// 	ingredient: [],
+		// 	prep: [''],
+		// 	cookingDirection: []
+		// },
+		// {
+		// 	name: 'Pasta Salad (그릭샐러드)',
+		// 	mainIngredient: '',
+		// 	ingredient: [],
+		// 	prep: [''],
+		// 	cookingDirection: []
+		// },
+		// {
+		// 	name: 'Pasta Salad (코브샐러드)',
+		// 	mainIngredient: '',
+		// 	ingredient: [],
+		// 	prep: [''],
+		// 	cookingDirection: []
+		// },
 		{
-			name: 'Pasta Salad',
+			name: 'BBQ Pork w/ steamed rice or potato wedges, steamed vege',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
-			cookingDirection: []
-		},
-		{
-			name: 'BBQ Pork w/ steamed rice or baked potatoes, steamed vege',
-			mainIngredient: '',
-			ingredient: [],
-			prep: [],
+			prep: ['Cook BBQ Pork a night before', 'Steam the veges'],
 			cookingDirection: []
 		},
 		{
 			name: 'Anchovy Rice Ball with Tamagoyaki(계란말이)',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
+			prep: ['Make fried anchovy and fried veges.', 'Make tamagoyaki batter.'],
 			cookingDirection: []
 		},
 		{
-			name: 'Egg Fried Rice',
+			name: 'Egg Fried Rice w/ steamed edamame',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
+			prep: ['Make fried rice.', 'Steam Edamame.'],
 			cookingDirection: []
 		},
 		{
 			name: 'Bacon Fried Rice',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
+			prep: ['Make fried rice.'],
 			cookingDirection: []
 		},
 		{
 			name: 'Beef Fried Rice',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
+			prep: ['Make fried rice.'],
 			cookingDirection: []
 		},
 		{
 			name: 'Shrimp Pineapple Fried Rice',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
+			prep: ['Make fried rice.'],
 			cookingDirection: []
 		},
 		{
 			name: 'Chicken Quesadilla w/ avocado, tomatoes',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
+			prep: ['Cook chicken.', 'Chop avocado and tomatoes.'],
 			cookingDirection: []
 		},
 		{
@@ -166,47 +187,47 @@ var model = {
 			cookingDirection: []
 		},
 		{
-			name: 'Shrimp Tempura w/ ??',
+			name: 'Shrimp Tempura w/ homemade potato wedges, steamed broccoli',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
+			prep: ['Soak potatoes.', 'Steam broccoli'],
 			cookingDirection: []
 		},
 		{
 			name: 'Fish stick with Apple Coleslaw',
 			mainIngredient: 'fish',
 			ingredient: ['fish stick', 'apple', ''],
-			prep: [],
+			prep: ['Make apple coleslaw.'],
 			cookingDirection: [],
 		},
 		{
 			name: 'Mungbean Pancake w/ cooked rice, steamed vege ',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
+			prep: ['Steam vege.', 'Make mungbean pancake batter.'],
 			cookingDirection: []
 		},
 		{
 			name: 'Shrimp Zucchini Pancake w/ cooked rice, steamed vege',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
+			prep: ['Make shrimp zucchini pancake batter.', 'Steam veges.'],
 			cookingDirection: []
 		},
 		{
 			name: 'Pork and Vege Pancake(동그랑땡) w/ rice, steamed vege',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
+			prep: ['Make pork and vege pancake.', 'Steam vege.'],
 			cookingDirection: []
 		},
-		{
-			name: 'Ravioli ??',
-			mainIngredient: '',
-			ingredient: [],
-			prep: [],
-			cookingDirection: []
-		},
+		// {
+		// 	name: 'Ravioli ??',
+		// 	mainIngredient: '',
+		// 	ingredient: [],
+		// 	prep: [],
+		// 	cookingDirection: []
+		// },
 		// {
 		// 	name: 'California Roll',
 		// 	mainIngredient: '',
@@ -236,28 +257,28 @@ var model = {
 			name: 'Don Katsu w/ cabbage salad, sesame dressing, steamed rice, seasonal fruit',
 			mainIngredient: 'pork',
 			ingredient: ['pork top loin', 'cabbage', 'katsu sauce', 'panko', 'egg'],
-			prep: ['1. Make '],
+			prep: ['Make Don Katsu for the week.', 'Cut up the cabbage.', 'Make sesame dressing.'],
 			cookingDirection: ['bake the katsu in the 400 F preheated oven for about 18 mins']
 		},
 		{
 			name: 'Meatball Pasta w/ carrot, onion, mushroom, seasonal fruit',
 			mainIngredient: 'meatball',
 			ingredient: ['meatball', 'pasta', 'marinara sauce'],
-			prep: ['meatball'],
+			prep: ['Make meatballs for the week.', 'Finely chop the veges.'],
 			cookingDirection: ['put all the ingredients into instantpot and cook it in low pressure for 15 mins.'],
 		},
 		{
 			name: 'Teriyaki Chicken',
 			mainIngredient: 'chicken',
 			ingredient: ['chicken thigh', 'carrot', 'mungbean sprout', 'onion'],
-			prep: [],
+			prep: ['Marinate the chicken.', 'Cut up the all veges.'],
 			cookingDirection: []
 		},
 		{
-			name: 'Chicken Nugget',
+			name: 'Chicken Nugget w/ homemade potato wedges, steamed broccoli',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
+			prep: ['Cut up the potatoes and soak in the water.', 'Steam the broccoli.'],
 			cookingDirection: []
 		},
 		{
@@ -268,125 +289,139 @@ var model = {
 			cookingDirection: []
 		},
 		{
-			name: 'Hamburg Steak (함박스테이크)',
+			name: 'Hamburg Steak w/ potato wedges, steamed vege',
+			mainIngredient: '',
+			ingredient: [],
+			prep: ['Make hamburg steak for the week.', 'Cut up the potatoes and soak in the water.', 'Steam the veges.'],
+			cookingDirection: []
+		},
+		{
+			name: 'Mini Hamburger w/ dinner roll, pickles, diced tomatoes',
+			mainIngredient: '',
+			ingredient: [],
+			prep: ['Make patties for the week.', 'Dice tomatoes.'],
+			cookingDirection: []
+		},
+		{
+			name: 'Cauliflower Chicken Mac and Cheese',
 			mainIngredient: '',
 			ingredient: [],
 			prep: [],
 			cookingDirection: []
 		},
+		// {
+		// 	name: 'Pasta Salad (마카로니 샐러드)',
+		// 	mainIngredient: '',
+		// 	ingredient: [],
+		// 	prep: [''],
+		// 	cookingDirection: []
+		// },
+		// {
+		// 	name: 'Pasta Salad (그릭샐러드)',
+		// 	mainIngredient: '',
+		// 	ingredient: [],
+		// 	prep: [''],
+		// 	cookingDirection: []
+		// },
+		// {
+		// 	name: 'Pasta Salad (코브샐러드)',
+		// 	mainIngredient: '',
+		// 	ingredient: [],
+		// 	prep: [''],
+		// 	cookingDirection: []
+		// },
 		{
-			name: 'Mini Hamburger',
+			name: 'BBQ Pork w/ steamed rice or potato wedges, steamed vege',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
-			cookingDirection: []
-		},
-		{
-			name: 'Mac and Cheese',
-			mainIngredient: '',
-			ingredient: [],
-			prep: [],
-			cookingDirection: []
-		},
-		{
-			name: 'Pasta Salad',
-			mainIngredient: '',
-			ingredient: [],
-			prep: [],
-			cookingDirection: []
-		},
-		{
-			name: 'BBQ Pork',
-			mainIngredient: '',
-			ingredient: [],
-			prep: [],
+			prep: ['Cook BBQ Pork a night before', 'Steam the veges'],
 			cookingDirection: []
 		},
 		{
 			name: 'Anchovy Rice Ball with Tamagoyaki(계란말이)',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
+			prep: ['Make fried anchovy and fried veges.', 'Make tamagoyaki batter.'],
 			cookingDirection: []
 		},
 		{
 			name: 'Egg Fried Rice',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
+			prep: ['Make fried rice.', 'Steam Edamame.'],
 			cookingDirection: []
 		},
 		{
 			name: 'Bacon Fried Rice',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
+			prep: ['Make fried rice.'],
 			cookingDirection: []
 		},
 		{
 			name: 'Beef Fried Rice',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
+			prep: ['Make fried rice.'],
 			cookingDirection: []
 		},
 		{
 			name: 'Shrimp Pinapple Fried Rice',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
+			prep: ['Make fried rice.'],
 			cookingDirection: []
 		},
 		{
-			name: 'Chicken Quesadilla',
+			name: 'Chicken Quesadilla w/ avocado, tomatoes (guacamole & salsa)',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
+			prep: ['Cook chicken.', 'Chop avocado and tomatoes.'],
 			cookingDirection: []
 		},	
 		{
-			name: 'Shrimp Tempura',
+			name: 'Shrimp Tempura w/ homemade potato wedges, steamed broccoli',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
+			prep: ['Soak potatoes.', 'Steam broccoli'],
 			cookingDirection: []
 		},
 		{
 			name: 'Fish stick with Apple Coleslaw',
 			mainIngredient: 'fish',
 			ingredient: ['fish stick', 'apple', ''],
-			prep: [],
+			prep: ['Make apple coleslaw.'],
 			cookingDirection: [],
 			// reference: ["https://www.culinaryhill.com/easy-apple-coleslaw-recipe/"]
 		},
 		{
-			name: 'Mungbean Pancake',
+			name: 'Mungbean Pancake w/ cooked rice, steamed vege ',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
+			prep: ['Steam vege.', 'Make mungbean pancake batter.'],
 			cookingDirection: []
 		},
 		{
-			name: 'Shrimp Zucchini Pancake',
+			name: 'Shrimp Zucchini Pancake w/ cooked rice, steamed vege',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
+			prep: ['Make shrimp zucchini pancake batter.', 'Steam veges.'],
 			cookingDirection: []
 		},
 		{
 			name: 'Pork and Vege Pancake(동그랑땡) w/ rice, steamed vege',
 			mainIngredient: '',
 			ingredient: [],
-			prep: [],
+			prep: ['Make pork and vege pancake.', 'Steam vege.'],
 			cookingDirection: []
 		},
-		{
-			name: 'Ravioli',
-			mainIngredient: '',
-			ingredient: [],
-			prep: [],
-			cookingDirection: []
-		},
+		// {
+		// 	name: 'Ravioli',
+		// 	mainIngredient: '',
+		// 	ingredient: [],
+		// 	prep: [],
+		// 	cookingDirection: []
+		// },
 		// {
 		// 	name: 'California Roll',
 		// 	mainIngredient: '',
@@ -412,15 +447,13 @@ var model = {
 		// 	cookingDirection: []
 		// },
 		{
-			number: '1',
-			name: 'Wonton',
+			name: 'Wonton w/ edamame',
 			mainIngredient: '',
 			ingredient: [],
 			prep: [],
 			cookingDirection: []
 		},
 		{
-			number: '2',
 			name: 'Mini Corndog',
 			mainIngredient: '',
 			ingredient: [],
@@ -428,15 +461,13 @@ var model = {
 			cookingDirection: []
 		},
 		{
-			number: '3',
-			name: 'Korean Pancake',
+			name: 'Korean Pancake (호떡)',
 			mainIngredient: '',
 			ingredient: [],
 			prep: [],
 			cookingDirection: []
 		},
 		{
-			number: '4',
 			name: 'Zucchini Muffin',
 			mainIngredient: '',
 			ingredient: [],
@@ -444,7 +475,6 @@ var model = {
 			cookingDirection: []
 		},
 		{
-			number: '5',
 			name: 'Carrot Muffin',
 			mainIngredient: '',
 			ingredient: [],
@@ -452,7 +482,6 @@ var model = {
 			cookingDirection: []
 		},
 		{
-			number: '6',
 			name: 'Blueberry Muffin',
 			mainIngredient: '',
 			ingredient: [],
@@ -460,7 +489,6 @@ var model = {
 			cookingDirection: []
 		},
 		{
-			number: '7',
 			name: 'Banana Muffin',
 			mainIngredient: '',
 			ingredient: [],
@@ -468,7 +496,6 @@ var model = {
 			cookingDirection: []
 		},
 		{
-			number: '8',
 			name: 'Kabocha Ricecake(백설기)',
 			mainIngredient: '',
 			ingredient: [],
@@ -476,7 +503,6 @@ var model = {
 			cookingDirection: []
 		},
 		{
-			number: '9',
 			name: 'Ham and Cheese Croissant',
 			mainIngredient: '',
 			ingredient: [],
@@ -484,8 +510,35 @@ var model = {
 			cookingDirection: []
 		},
 		{
-			number: '10',
 			name: 'Stir Fried Bacon and Rice Cake',
+			mainIngredient: '',
+			ingredient: [],
+			prep: [],
+			cookingDirection: []
+		},
+		{
+			name: 'Granola w/ yogurt',
+			mainIngredient: '',
+			ingredient: [],
+			prep: [],
+			cookingDirection: []
+		},
+		{
+			name: 'Pretzel Chips w/ salami and cheese',
+			mainIngredient: '',
+			ingredient: [],
+			prep: [],
+			cookingDirection: []
+		},
+		{
+			name: 'Multigrain Crackers w/ String Cheese',
+			mainIngredient: '',
+			ingredient: [],
+			prep: [],
+			cookingDirection: []
+		},
+		{
+			name: 'Baked Sweet Potatoes w/ raisins',
 			mainIngredient: '',
 			ingredient: [],
 			prep: [],
