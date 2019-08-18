@@ -42,6 +42,13 @@ var model = {
 			prep: ['Make the egg batter.'],
 			cookingDirection: []
 		},
+		{
+			name: 'Hashbrown w/ scrambled/boiled egg',
+			keyword: '',
+			ingredient: [],
+			prep: ['Make the egg batter.'],
+			cookingDirection: []
+		},
 	],
 
 	//the lunch and dinner menus are almost the same.
