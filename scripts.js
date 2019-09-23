@@ -88,13 +88,13 @@ var model = {
 			prep: [],
 			cookingDirection: []
 		},
-		{
-			name: 'Hamburg Steak w/ potato wedges, steamed vege',
-			keyword: '',
-			ingredient: [],
-			prep: ['Make hamburg steak for the week.<br>Cut up the potatoes and soak in the water.<br>Steam the veges.'],
-			cookingDirection: []
-		},
+		// {
+		// 	name: 'Hamburg Steak w/ potato wedges, steamed vege',
+		// 	keyword: '',
+		// 	ingredient: [],
+		// 	prep: ['Make hamburg steak for the week.<br>Cut up the potatoes and soak in the water.<br>Steam the veges.'],
+		// 	cookingDirection: []
+		// },
 		{
 			name: 'Mini Hamburger w/ dinner roll, pickles, diced tomatoes',
 			keyword: '',
@@ -102,13 +102,13 @@ var model = {
 			prep: ['Make patties for the week.<br>Dice tomatoes and pickles.'],
 			cookingDirection: []
 		},
-		{
-			name: 'Cauliflower Chicken Mac and Cheese',
-			keyword: '',
-			ingredient: [],
-			prep: [],
-			cookingDirection: []
-		},
+		// {
+		// 	name: 'Cauliflower Chicken Mac and Cheese',
+		// 	keyword: '',
+		// 	ingredient: [],
+		// 	prep: [],
+		// 	cookingDirection: []
+		// },
 		{
 			name: 'Pasta Salad(macaroni) w/ hard boiled egg.',
 			keyword: '',
@@ -130,13 +130,13 @@ var model = {
 		// 	prep: [''],
 		// 	cookingDirection: []
 		// },
-		{
-			name: 'BBQ Pork w/ steamed rice or potato wedges, steamed vege',
-			keyword: '',
-			ingredient: [],
-			prep: ['Cook BBQ Pork a night before and pull the meat from the bone.<br>Steam the veges. <br>Cook potato wedges.'],
-			cookingDirection: []
-		},
+		// {
+		// 	name: 'BBQ Pork w/ steamed rice or potato wedges, steamed vege',
+		// 	keyword: '',
+		// 	ingredient: [],
+		// 	prep: ['Cook BBQ Pork a night before and pull the meat from the bone.<br>Steam the veges. <br>Cook potato wedges.'],
+		// 	cookingDirection: []
+		// },
 		{
 			name: 'Anchovy Rice Ball with Tamagoyaki(계란말이)',
 			keyword: '',
@@ -159,7 +159,7 @@ var model = {
 			cookingDirection: []
 		},
 		{
-			name: 'Beef Fried Rice',
+			name: 'Beef Fried Rice Arancini',
 			keyword: '',
 			ingredient: [],
 			prep: ['Make fried rice.'],
@@ -187,14 +187,14 @@ var model = {
 			cookingDirection: []
 		},
 		{
-			name: 'Ham and Cheese Sandwich',
+			name: 'Ham and Cheese Sandwich/croissant',
 			keyword: '',
 			ingredient: [],
 			prep: [],
 			cookingDirection: []
 		},
 		{
-			name: 'Shrimp Tempura w/ homemade potato wedges, steamed broccoli',
+			name: 'Coconut Shrimp w/ homemade potato wedges, steamed broccoli',
 			keyword: '',
 			ingredient: [],
 			prep: ['Soak potatoes.<br>Steam broccoli'],
@@ -214,13 +214,13 @@ var model = {
 		// 	prep: ['Steam vege.<br>Make mungbean pancake batter.'],
 		// 	cookingDirection: []
 		// },
-		{
-			name: 'Shrimp Zucchini Pancake w/ cooked rice, steamed vege',
-			keyword: '',
-			ingredient: [],
-			prep: ['Make shrimp zucchini pancake batter.<br>Steam veges.'],
-			cookingDirection: []
-		},
+		// {
+		// 	name: 'Shrimp Zucchini Pancake w/ cooked rice, steamed vege',
+		// 	keyword: '',
+		// 	ingredient: [],
+		// 	prep: ['Make shrimp zucchini pancake batter.<br>Steam veges.'],
+		// 	cookingDirection: []
+		// },
 		{
 			name: 'Pork and Vege Pancake(동그랑땡) w/ rice, steamed vege',
 			keyword: '',
@@ -256,6 +256,20 @@ var model = {
 		// 	prep: [],
 		// 	cookingDirection: []
 		// },
+		{
+			name: 'Ham, Cheese, & Egg English Muffin',
+			keyword: '',
+			ingredient: [],
+			prep: [''],
+			cookingDirection: []
+		},
+			{
+			name: 'Arancini w/ boiled egg',
+			keyword: '',
+			ingredient: [],
+			prep: [''],
+			cookingDirection: []
+		},
 	],
 
 	//the lunch and dinner menus are almost the same.
@@ -319,6 +333,13 @@ var model = {
 		{
 			name: 'Cauliflower Chicken Mac and Cheese',
 			keyword: '',
+			ingredient: [],
+			prep: [],
+			cookingDirection: []
+		},
+		{
+			name: 'Chicken and Cauliflower Mac and Cheese',
+			keyword:'',
 			ingredient: [],
 			prep: [],
 			cookingDirection: []
@@ -429,20 +450,20 @@ var model = {
 			prep: ['Make pork and vege pancake.<br>Steam vege.<br>Make miso soup.'],
 			cookingDirection: []
 		},
-		// {
-		// 	name: 'Ravioli',
-		// 	keyword: '',
-		// 	ingredient: [],
-		// 	prep: [],
-		// 	cookingDirection: []
-		// },
-		// {
-		// 	name: 'California Roll',
-		// 	keyword: '',
-		// 	ingredient: [],
-		// 	prep: [],
-		// 	cookingDirection: []
-		// },
+		{
+			name: 'Ravioli',
+			keyword: '',
+			ingredient: [],
+			prep: [],
+			cookingDirection: []
+		},
+		{
+			name: 'California Roll',
+			keyword: '',
+			ingredient: [],
+			prep: [],
+			cookingDirection: []
+		},
 		{
 			name: 'Hayashi Rice(하이라이스)',
 			keyword: '',
@@ -450,13 +471,13 @@ var model = {
 			prep: ['Cut up all veges for Hayashi rice.'],
 			cookingDirection: []
 		},
-		// {
-		// 	name: '카레',
-		// 	keyword: '',
-		// 	ingredint: [],
-		// 	prep: [],
-		// 	cookingDirection: []
-		// },
+		{
+			name: '카레',
+			keyword: '',
+			ingredint: [],
+			prep: [],
+			cookingDirection: []
+		},
 		{
 			name: 'Bossam(보쌈)',
 			keyword: '',
@@ -580,7 +601,7 @@ var model = {
 			cookingDirection: []
 		},
 		{
-			name: 'Cranberry-Goat Cheese Pinwheels',
+			name: 'Cranberry-Cream Cheese Pinwheels',
 			keyword: '',
 			ingredient: [],
 			prep: ['Make pinwheels for the week.'],
