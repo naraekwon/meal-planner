@@ -16,7 +16,7 @@
 			<form id="mealAmount">
 				<div id="breakfastInput">
 					Breakfast:
-					<input type="number" id="inputBreakfast" name="breakfast" min="0" max="6" placeholder="0 to 6">
+					<input type="number" id="inputBreakfast" name="breakfast" min="0" max="7" placeholder="0 to 7">
 			 	</div>
 			 	<div id="lunchInput">
 					Lunch:
@@ -28,14 +28,42 @@
 				</div>
 				<div id="snackInput">
 					Snack:
-					<input type="number" id="inputSnack" name="snack" min="0" max="10" placeholder="0 to 10">
+					<input type="number" id="inputSnack" name="snack" min="0" max="7" placeholder="0 to 7">
 				</div>
 				<div id="submit-btn">
 					<input type="submit">
 				</div>
 			</form>
 		</div>
-		<div id="weekly-meal-plan">
+		<div id='weekly-meal-plan-table'>
+			<table>
+				<tbody>
+					<tr>
+						<th></th>
+						<th>Mon</th>
+						<th>Tues</th>
+						<th>Wed</th>
+						<th>Thur</th>
+						<th>Fri</th>
+						<th>Sat</th>
+						<th>Sun</th>
+					</tr>
+					<tr id='breakfast-row'>
+						<th>Breakfast</th>
+					</tr>
+					<tr id='snack-row'>
+						<th>Snack</th>
+					</tr>
+					<tr id='lunch-row'>
+						<th>Lunch</th>
+					</tr>
+					<tr id='dinner-row'>
+						<th>Dinner</th>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<!-- <div id="weekly-meal-plan">
 			<div id="breakfastContainer">
 				<div class="menuContainer">
 					<div class="containerTitle">
@@ -104,7 +132,7 @@
 					</ul>
 				</div>			
 			</div>
-		</div>
+		</div> -->
 		<!-- <div id="shop-and-prep">
 			<div id="shoppingList">
 			</div>
@@ -114,33 +142,7 @@
 		
 		<!-- <div id="cookingDirection">
 		</div> -->
-		<div id='weekly-meal-plan-table'>
-			<table>
-				<tbody>
-					<tr>
-						<th>Monday</th>
-						<th>Tuesday</th>
-						<th>Wednesday</th>
-						<th>Thursday</th>
-						<th>Friday</th>
-						<th>Saturday</th>
-						<th>Sunday</th>
-					</tr>
-					<tr id='breakfast-row'>
-						<th>Breakfast</th>
-					</tr>
-					<tr id='snack-row'>
-						<th>Snack</th>
-					</tr>
-					<tr id='lunch-row'>
-						<th>Lunch</th>
-					</tr>
-					<tr id='dinner-row'>
-						<th>Dinner</th>
-					</tr>
-				</tbody>
-			</table>
-		</div>
+		
 
 	</main>
 	<footer>

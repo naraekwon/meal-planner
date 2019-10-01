@@ -722,97 +722,149 @@ var weeklyPlanView = {
 
 	render: function(){
 		let mealAmount = document.querySelector('#mealAmount');
-
+		let planTable = document.querySelector('#weekly-meal-plan-table');
+		
 		//BREAKFAST
-		let breakfastContainer = document.querySelector('#breakfastContainer');
-		let breakfastLists = document.querySelector('#breakfastLists');
+		// let breakfastContainer = document.querySelector('#breakfastContainer');
+		// let breakfastLists = document.querySelector('#breakfastLists');
 		let breakfastInput = document.querySelector('#inputBreakfast');
 		var breakfastRandomArray = controller.getRandomBreakfast();
 		let breakfastPrep = document.querySelector('#breakfastPrep');
 		//remove existing breakfast menu lists on
-		while(breakfastLists.firstElementChild !== null) {
-			breakfastLists.firstElementChild.remove();
-		};
-		//remove existing breakfast prep lists
-		while(breakfastPrep.firstElementChild !== null) {
-			breakfastPrep.firstElementChild.remove();
-		}
+		// while(breakfastLists.firstElementChild !== null) {
+		// 	breakfastLists.firstElementChild.remove();
+		// };
+		// //remove existing breakfast prep lists
+		// while(breakfastPrep.firstElementChild !== null) {
+		// 	breakfastPrep.firstElementChild.remove();
+		// }
 		
-		for (let i = 0; i < breakfastInput.value; i ++) {
-			//create breakfast menu lists
-			breakfastLists.innerHTML += `<li>${breakfastRandomArray[i].name}</li>`;
-			//create prep lists for the breakfasts
-			breakfastPrep.innerHTML += `<li>${breakfastRandomArray[i].prep}</li>`;
-		};
+		// for (let i = 0; i < breakfastInput.value; i ++) {
+		// 	//create breakfast menu lists
+		// 	breakfastLists.innerHTML += `<li>${breakfastRandomArray[i].name}</li>`;
+		// 	//create prep lists for the breakfasts
+		// 	breakfastPrep.innerHTML += `<li>${breakfastRandomArray[i].prep}</li>`;
+		// };
 
+
+		//render breakfast table tds in rows
+		let breakfastRow = document.querySelector('#breakfast-row');
+		//remove existing breakfast row
+		while(breakfastRow.childNodes.length > 2) {
+			breakfastRow.lastChild.remove();
+		};
+		for (let i = 0; i < breakfastInput.value; i ++) {
+			breakfastRow.innerHTML += `<td>${breakfastRandomArray[i].name}</td>`;
+		};
+		for (let j = 0; j < (7 - breakfastInput.value); j ++) {
+			breakfastRow.innerHTML += `<td> </td>`;
+		};
+		
 
 		//LUNCH
-		let lunchContainer = document.querySelector('#lunchContainer');
-		let lunchLists = document.querySelector('#lunchLists');
+		// let lunchContainer = document.querySelector('#lunchContainer');
+		// let lunchLists = document.querySelector('#lunchLists');
 		let lunchInput = document.querySelector('#inputLunch');
 		var lunchRandomArray = controller.getRandomLunch();
 		let lunchPrep = document.querySelector('#lunchPrep');
-		//remove existing lunch menu lists on
-		while (lunchLists.firstElementChild !== null){
-			lunchLists.firstElementChild.remove();
-		};
-		//remove existing lunch prep lists
-		while (lunchPrep.firstElementChild !== null){
-			lunchPrep.firstElementChild.remove();
-		}
+		// //remove existing lunch menu lists on
+		// while (lunchLists.firstElementChild !== null){
+		// 	lunchLists.firstElementChild.remove();
+		// };
+		// //remove existing lunch prep lists
+		// while (lunchPrep.firstElementChild !== null){
+		// 	lunchPrep.firstElementChild.remove();
+		// }
 
-		for (let i = 0; i < lunchInput.value; i ++) {		
-			//create lunch menu lists 	
-			lunchLists.innerHTML += `<li>${lunchRandomArray[i].name}</li>`;
-			//create lunch prep lists
-			lunchPrep.innerHTML += `<li>${lunchRandomArray[i].prep}</li>`;
-		};	
+		// for (let i = 0; i < lunchInput.value; i ++) {		
+		// 	//create lunch menu lists 	
+		// 	lunchLists.innerHTML += `<li>${lunchRandomArray[i].name}</li>`;
+		// 	//create lunch prep lists
+		// 	lunchPrep.innerHTML += `<li>${lunchRandomArray[i].prep}</li>`;
+		// };	
+
+		let lunchRow = document.querySelector('#lunch-row');
+		//remove existing breakfast row
+		while(lunchRow.childNodes.length > 2) {
+			lunchRow.lastChild.remove();
+		};
+		for (let i = 0; i < lunchInput.value; i ++) {
+			lunchRow.innerHTML += `<td>${lunchRandomArray[i].name}</td>`;
+		};
+		for (let j = 0; j < (7 - lunchInput.value); j ++) {
+			lunchRow.innerHTML += `<td> </td>`;
+		};
 
 		//DINNER
-		let dinnerContainer = document.querySelector('#dinnerContainer');
-		let dinnerLists = document.querySelector('#dinnerLists');
+		// let dinnerContainer = document.querySelector('#dinnerContainer');
+		// let dinnerLists = document.querySelector('#dinnerLists');
 		let dinnerInput = document.querySelector('#inputDinner');
 		var dinnerRandomArray = controller.getRandomDinner();
 		let dinnerPrep = document.querySelector('#dinnerPrep');
-		//remove existing dinner menu lists on
-		while (dinnerLists.firstElementChild !== null) {
-			dinnerLists.firstElementChild.remove();
-		};
-		//remove existing dinner prep lists
-		while (dinnerPrep.firstElementChild !== null) {
-			dinnerPrep.firstElementChild.remove();
-		}
 
+		// //remove existing dinner menu lists on
+		// while (dinnerLists.firstElementChild !== null) {
+		// 	dinnerLists.firstElementChild.remove();
+		// };
+		// //remove existing dinner prep lists
+		// while (dinnerPrep.firstElementChild !== null) {
+		// 	dinnerPrep.firstElementChild.remove();
+		// }
+
+		// for (let i = 0; i < dinnerInput.value; i ++) {
+		// 	//create dinner menu lists
+		// 	dinnerLists.innerHTML += `<li>${dinnerRandomArray[i].name}</li>`;
+		// 	//create dinner prep lists
+		// 	dinnerPrep.innerHTML += `<li>${dinnerRandomArray[i].prep}</li>`;
+		// };
+
+		let dinnerRow = document.querySelector('#dinner-row');
+		//remove existing breakfast row
+		while(dinnerRow.childNodes.length > 2) {
+			dinnerRow.lastChild.remove();
+		};
 		for (let i = 0; i < dinnerInput.value; i ++) {
-			//create dinner menu lists
-			dinnerLists.innerHTML += `<li>${dinnerRandomArray[i].name}</li>`;
-			//create dinner prep lists
-			dinnerPrep.innerHTML += `<li>${dinnerRandomArray[i].prep}</li>`;
+			dinnerRow.innerHTML += `<td>${dinnerRandomArray[i].name}</td>`;
+		};
+		for (let j = 0; j < (7 - dinnerInput.value); j ++) {
+			dinnerRow.innerHTML += `<td> </td>`;
 		};
 
 		//SNACK
-		let snackContainer = document.querySelector('#snackContainer');
-		let snackLists = document.querySelector('#snackLists');
+		// let snackContainer = document.querySelector('#snackContainer');
+		// let snackLists = document.querySelector('#snackLists');
 		let snackInput = document.querySelector('#inputSnack');
 		let snackPrep = document.querySelector('#snackPrep');
 		var snackRandomArray = controller.getRandomSnack();
-		//remove existing snack menu lists on
-		while (snackLists.firstElementChild !== null){
-			snackLists.firstElementChild.remove();
-		};
-		//remove existing snack prep lists
-		while (snackPrep.firstElementChild !== null) {
-			snackPrep.firstElementChild.remove();
-		}
+
+		// //remove existing snack menu lists on
+		// while (snackLists.firstElementChild !== null){
+		// 	snackLists.firstElementChild.remove();
+		// };
+		// //remove existing snack prep lists
+		// while (snackPrep.firstElementChild !== null) {
+		// 	snackPrep.firstElementChild.remove();
+		// }
 
 		
-		for (let i = 0; i < snackInput.value; i++) {
-			//create snack menu lists
-			snackLists.innerHTML += `<li>${snackRandomArray[i].name}</li>`;
-			//create snack prep lists
-			snackPrep.innerHTML += `<li>${snackRandomArray[i].prep}</li>`;
-		};
+		// for (let i = 0; i < snackInput.value; i++) {
+		// 	//create snack menu lists
+		// 	snackLists.innerHTML += `<li>${snackRandomArray[i].name}</li>`;
+		// 	//create snack prep lists
+		// 	snackPrep.innerHTML += `<li>${snackRandomArray[i].prep}</li>`;
+		// };
 
+		let snackRow = document.querySelector('#snack-row');
+		//remove existing breakfast row
+		while(snackRow.childNodes.length > 2) {
+			snackRow.lastChild.remove();
+		};
+		for (let i = 0; i < snackInput.value; i ++) {
+			snackRow.innerHTML += `<td>${snackRandomArray[i].name}</td>`;
+		};
+		for (let j = 0; j < (7 - snackInput.value); j ++) {
+			snackRow.innerHTML += `<td> </td>`;
+		};
 	},
 };
 

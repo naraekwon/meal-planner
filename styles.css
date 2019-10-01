@@ -2,6 +2,8 @@
 
 body {
 	font-family: Comfortaa;
+	margin: 0 auto;
+	max-width: 1200px;
 }
 
 h1 {
@@ -109,7 +111,33 @@ header {
 	border-radius: 5px;
 
 }*/
+/**MEAL PLAN IN TABLE**/
+table {
+	border-collapse: collapse;
+	width: 90%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+td, th {
+	border: 1px solid rgba(139, 176, 11, 0.1);
+	text-align: left;
+	padding: 8px;
+	width: 100px;
+	max-width: 120px;
+	text-overflow: wrap;
+}
 
+th {
+	font-size: 1rem;
+}
+
+td {
+	font-size: 0.8rem;
+}
+
+tr:nth-child(even) {
+	background-color: rgba(139, 176, 11, 0.1);
+}
 
 input[type=number] {
 	width: 5em;
