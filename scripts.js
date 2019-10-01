@@ -472,7 +472,7 @@ var model = {
 			cookingDirection: []
 		},
 		{
-			name: '카레',
+			name: 'Korean Curry',
 			keyword: '',
 			ingredint: [],
 			prep: [],
@@ -607,13 +607,13 @@ var model = {
 			prep: ['Make pinwheels for the week.'],
 			cookingDirection: []
 		},
-		{
-			name: 'Brie-and-Fig Puffed Pastry Bites',
-			keyword: '',
-			ingredient: [],
-			prep: ['Bake the pastry bites for the week.'],
-			cookingDirection: []
-		},
+		// {
+		// 	name: 'Brie-and-Fig Puffed Pastry Bites',
+		// 	keyword: '',
+		// 	ingredient: [],
+		// 	prep: ['Bake the pastry bites for the week.'],
+		// 	cookingDirection: []
+		// },
 	]
 
 };

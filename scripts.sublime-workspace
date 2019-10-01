@@ -1,0 +1,304 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"space",
+				"space-between\tjustify-content"
+			],
+			[
+				"max-",
+				"max-height\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/naraekwon/core/api/apps/educater/src/widgets/classes/styles.css",
+		"/Users/naraekwon/core/api/apps/editer/api.js",
+		"/Users/naraekwon/core/api/apps/educater/src/widgets/classes/script.js",
+		"/Users/naraekwon/core/api/apps/educater/src/widgets/classes/template.html",
+		"/Users/naraekwon/core/api/apps/lander/src/js/home.js",
+		"/Users/naraekwon/core/api/apps/lander/src/widgets/header/script.js",
+		"/Users/naraekwon/core/styleguide/base.css",
+		"/Users/naraekwon/Documents/personal-coding-project/meal-planner/index.html",
+		"/Users/naraekwon/Documents/personal-coding-project/meal-planner/scripts.js",
+		"/Users/naraekwon/core/styleguide/styleguide.html",
+		"/Users/naraekwon/core/api/apps/shopper/src/widgets/projects/styles.css",
+		"/Users/naraekwon/core/api/apps/shopper/src/widgets/projects/script.js",
+		"/Users/naraekwon/core/config.json",
+		"/Users/naraekwon/core/api/apps/educater/src/widgets/classes/itemTemplate.html",
+		"/Users/naraekwon/core/api/apps/socializer/src/js/section.js",
+		"/Users/naraekwon/core/api/apps/socializer/src/css/section.css",
+		"/Users/naraekwon/core/api/apps/socializer/src/html/section.html",
+		"/Users/naraekwon/core/node_modules/cssstyle/lib/properties/background.js",
+		"/Users/naraekwon/core/api/apps/explorer/src/html/section.html",
+		"/Users/naraekwon/core/api/apps/explorer/src/css/section.css",
+		"/Users/naraekwon/core/api/apps/explorer/src/js/section.js",
+		"/Users/naraekwon/core/node_modules/protobufjs/docs/styles/prettify-jsdoc.css",
+		"/Users/naraekwon/Documents/personal-coding-project/meal-planner/styles.css",
+		"/Users/naraekwon/Documents/chingu-voyage9/v9-toucans-team-11/index.html",
+		"/Users/naraekwon/Documents/chingu-voyage9/v9-toucans-team-11/styles.css",
+		"/Users/naraekwon/Documents/chingu-voyage9/v9-toucans-team-11/scripts.js",
+		"/Users/naraekwon/Documents/chingu-voyage9/v9-toucans-team-11/README.md",
+		"/Users/naraekwon/core/api/apps/administrater/src/widgets/menu/styles.css",
+		"/Users/naraekwon/core/node_modules/sift/sift.min.js",
+		"/Users/naraekwon/core/api/apps/explorer/src/html/anyFullPage.html",
+		"/Users/naraekwon/Documents/personal-coding-project/meal-planner/designs.js",
+		"/Users/naraekwon/core/api/apps/capturer/src/js/capturer.js",
+		"/Users/naraekwon/core/api/apps/capturer/api.js",
+		"/Users/naraekwon/core/api/apps/capturer/src/html/section.html",
+		"/Users/naraekwon/core/api/apps/administrater/src/css/base.css",
+		"/Users/naraekwon/core/api/apps/trainer/src/html/adminFullPage.html",
+		"/Users/naraekwon/core/api/apps/trainer/src/html/teacherFullPage.html",
+		"/Users/naraekwon/core/api/apps/trainer/src/html/section.html",
+		"/Users/naraekwon/core/api/apps/animater/src/html/section.html",
+		"/Users/naraekwon/core/api/apps/animater/src/css/chargen.css",
+		"/Users/naraekwon/core/api/apps/administrater/src/widgets/footer/styles.css",
+		"/Users/naraekwon/Documents/chingu-voyage9/chingu-preproject-initab-landingpage/styles.css",
+		"/Users/naraekwon/core/api/apps/shopper/src/html/section.html",
+		"/Users/naraekwon/core/api/apps/shopper/api.js",
+		"/Users/naraekwon/core/api/apps/explorer/api.js",
+		"/Users/naraekwon/core/api/apps/reporter/src/html/section.html",
+		"/Users/naraekwon/core/api/apps/reporter/api.js",
+		"/Users/naraekwon/core/api/apps/teacher/src/html/anyFullPage.html",
+		"/Users/naraekwon/core/api/apps/teacher/src/html/section.html",
+		"/Users/naraekwon/core/api/apps/teacher/api.js",
+		"/Users/naraekwon/core/api/apps/socializer/api.js",
+		"/Users/naraekwon/core/api/apps/socializer/src/html/anyFullPage.html",
+		"/Users/naraekwon/core/api/apps/animater/api.js",
+		"/Users/naraekwon/core/api/apps/trainer/api.js",
+		"/Users/naraekwon/core/api/apps/educater/src/html/section.html",
+		"/Users/naraekwon/core/api/apps/educater/src/html/adminFullPage.html",
+		"/Users/naraekwon/core/api/apps/educater/api.js",
+		"/Users/naraekwon/core/api/apps/educater/src/html/studentFullPage.html",
+		"/Users/naraekwon/core/api/apps/administrater/app.js",
+		"/Users/naraekwon/core/api/apps/administrater/src/widgets/menu/script.js",
+		"/Users/naraekwon/core/api/apps/administrater/src/widgets/header/template.html",
+		"/Users/naraekwon/core/api/apps/administrater/src/widgets/header/styles.css",
+		"/Users/naraekwon/core/api/apps/lander/api.js",
+		"/Users/naraekwon/core/api/apps/administrater/src/html/view.html",
+		"/Users/naraekwon/core/api/apps/administrater/src/widgets/menu/template.html",
+		"/Users/naraekwon/core/api/apps/administrater/src/widgets/menu/itemTemplate.html",
+		"/Users/naraekwon/core/api/apps/administrater/src/html/menu.html",
+		"/Users/naraekwon/Documents/personal-coding-project/meal-planner/LICENSE",
+		"/Users/naraekwon/Documents/chingu-voyage9/chingu-preproject-initab-landingpage/redditnewsfeeds.json",
+		"/Users/naraekwon/Documents/wisen-space/practice.html",
+		"/Users/naraekwon/core/api/apps/educater/src/html/widget.html",
+		"/Users/naraekwon/core/api/apps/teacher/src/html/widget.html",
+		"/Users/naraekwon/core/api/apps/shopper/src/html/widget.html",
+		"/Users/naraekwon/core/api/apps/capturer/src/html/widget.html",
+		"/Users/naraekwon/core/api/apps/explorer/src/html/widget.html",
+		"/Users/naraekwon/core/api/apps/animater/src/html/widget.html",
+		"/Users/naraekwon/core/api/apps/reporter/src/html/widget.html",
+		"/Users/naraekwon/core/api/apps/socializer/src/html/widget.html",
+		"/Users/naraekwon/core/api/apps/trainer/src/html/widget.html",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/udacity-fend-restaurant-review/js/restaurant_info.js",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/udacity-fend-restaurant-review/js/main.js",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/udacity-fend-restaurant-review/restaurant.html",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/udacity-fend-restaurant-review/index.html",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/udacity-fend-restaurant-review/data/restaurants.json",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/udacity-fend-restaurant-review/js/dbhelper.js",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/udacity-fend-restaurant-review/css/styles.css",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/udacity-fend-restaurant-review/js/sw.js",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/mws-restaurant-stage-1/js/main.js",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/mws-restaurant-stage-1/js/restaurant_info.js",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/course-ajax/lesson-3-async-w-fetch/index.html",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/course-ajax/lesson-3-async-w-fetch/app.js",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/course-ajax/lesson-2-async-w-jQuery/app.js",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/course-ajax/lesson-1-async-w-xhr/index.html",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/exoplanet-explorer/app/scripts/app.js",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/exoplanet-explorer/gulpfile.js",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/exoplanet-explorer/app/scripts/polymer-starter-kit-misc.js",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/ud989-school-attendance-master/js/app.js",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/cat-clicker/js/app.js",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/ud989-retain-master/js/retain.js",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/2nd_Project_MemoryGame/fend-project-memory-game-NK/css/app.css",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/2nd_Project_MemoryGame/fend-project-memory-game-NK/index.html",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/2nd_Project_MemoryGame/fend-project-memory-game-NK/js/app.js",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/frontend-nanodegree-feedreader/jasmine/spec/feedreader.js",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/frontend-nanodegree-feedreader/README.md",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/frontend-nanodegree-feedreader-master/index.html",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/frontend-nanodegree-feedreader-master/js/app.js",
+		"/Users/naraekwon/Documents/Udacity/Intro to Programming ND/ipnd_rps_starter_code-master/rps_nk.py",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/Testing_Jasmine/ud549-master/spec/AddressBookSpec.js",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/3rd_Project_ClassicArcadeGame/frontend-nanodegree-arcade-game_NK/index.html",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/3rd_Project_ClassicArcadeGame/frontend-nanodegree-arcade-game_NK/js/app.js",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/3rd_Project_ClassicArcadeGame/frontend-nanodegree-arcade-game_NK/css/style.css",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/3rd_Project_ClassicArcadeGame/frontend-nanodegree-arcade-game_NK/js/engine.js",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/3rd_Project_ClassicArcadeGame/frontend-nanodegree-arcade-game_NK/js/resources.js",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/Notes/Lesson5. function.js",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/Web Accessibility/lesson3-semantics-built-in/05-writing-semantic-html/wombats.js",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/Web Accessibility/lesson2-focus/04-offscreen-content/solution/blog.css",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/2nd_Project_MemoryGame/fend-project-memory-game-NK/README.md",
+		"/Users/naraekwon/Downloads/fend-project-memory-game-master/README.md",
+		"/Users/naraekwon/Documents/Udacity/Front_End_Nanodegree/2nd_Project_MemoryGame/fend-project-memory-game-master/js/app.js",
+		"/Users/naraekwon/Documents/Udacity/Intro to Programming ND/project-pixel-art-maker-NK/designs.js",
+		"/Users/naraekwon/Documents/Udacity/Intro to Programming ND/PY/Notes.py",
+		"/Users/naraekwon/Documents/Udacity/Intro to Programming ND/PY/function_review.py",
+		"/Users/naraekwon/Documents/Udacity/Intro to Programming ND/ipnd_rps_starter_code-master/starter_code.py",
+		"/Users/naraekwon/Documents/Udacity/Intro to Programming ND/udacity-git-course/my-travel-plans/README.md",
+		"/Users/naraekwon/Documents/Udacity/Intro to Programming ND/udacity-git-course/new-git-project/css/app.css",
+		"/beads.py",
+		"/Users/naraekwon/Documents/Udacity/Intro to Programming ND/animal-trading-cards-master/styles.css",
+		"/Users/naraekwon/Desktop/LetterToTheOwners"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 110.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 31.0
+	},
+	"pinned_build_system": "",
+	"project": "scripts.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 271.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
