@@ -18,6 +18,12 @@ npm run build
 npm run preview
 ```
 
+## GitHub Pages
+
+The live site is [https://naraekwon.github.io/meal-planner/](https://naraekwon.github.io/meal-planner/).
+
+Pushes to `master` build `dist/` and deploy it. One-time setup in the repo: **Settings → Pages → Source → GitHub Actions**.
+
 ## How to use it
 
 1. Enter how many of each meal you need.
