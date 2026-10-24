@@ -22,11 +22,11 @@ npm run preview
 
 The live site is [https://naraekwon.github.io/meal-planner/](https://naraekwon.github.io/meal-planner/).
 
-Pushes to `master` build the site and publish it to the `gh-pages` branch.
+Pushes to `master` run GitHub Actions, which builds `dist/` and deploys it to Pages. There is no `gh-pages` publish step.
 
-One-time setup in the repo: **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `gh-pages` / `/ (root)` → Save**.
+One-time setup: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 
-If this is still set to `master`, the site stays blank because GitHub is serving the Vite source file instead of the build.
+If Source is still “Deploy from a branch,” GitHub may serve `master` or an old `gh-pages` copy instead of this workflow. After Actions is the source, you can delete the `gh-pages` branch.
 
 ## How to use it
 
