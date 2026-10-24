@@ -1,154 +1,18 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Narae's Meal Planner</title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
-	<link rel="stylesheet" href="styles.css">
-
-</head>
-<body>
-	<header>
-		<h1>Narae's Meal Planner</h1>
-	</header>
-	<main>
-		<div class="planner">
-			<h2>Choose How Many Meals You Need</h2>
-			<form id="mealAmount">
-				<div id="breakfastInput">
-					Breakfast:
-					<input type="number" id="inputBreakfast" name="breakfast" min="0" max="7" placeholder="0 to 7">
-			 	</div>
-			 	<div id="lunchInput">
-					Lunch:
-					<input type="number" id="inputLunch" name="lunch" min="0" max="7" placeholder="0 to 7">
-				</div>
-				<div id="dinnerInput">
-					Dinner:
-					<input type="number" id="inputDinner" name="dinner" min="0" max="7" placeholder="0 to 7">
-				</div>
-				<div id="snackInput">
-					Snack:
-					<input type="number" id="inputSnack" name="snack" min="0" max="7" placeholder="0 to 7">
-				</div>
-				<div id="submit-btn">
-					<input type="submit">
-				</div>
-			</form>
-		</div>
-		<div id='weekly-meal-plan-table'>
-			<table>
-				<tbody>
-					<tr>
-						<th></th>
-						<th>Mon</th>
-						<th>Tues</th>
-						<th>Wed</th>
-						<th>Thur</th>
-						<th>Fri</th>
-						<th>Sat</th>
-						<th>Sun</th>
-					</tr>
-					<tr id='breakfast-row'>
-						<th>Breakfast</th>
-					</tr>
-					<tr id='snack-row'>
-						<th>Snack</th>
-					</tr>
-					<tr id='lunch-row'>
-						<th>Lunch</th>
-					</tr>
-					<tr id='dinner-row'>
-						<th>Dinner</th>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-		<!-- <div id="weekly-meal-plan">
-			<div id="breakfastContainer">
-				<div class="menuContainer">
-					<div class="containerTitle">
-					<h3>Breakfast</h3>
-					<span>serve w/ seasonal fruit, milk</span>
-					</div>
-					<ul id="breakfastLists">
-					</ul>
-				</div>
-				<div class="prepContainer">
-					<div class="prepTitle">
-					<h4>Prep</h4>
-					</div>
-					<ul id="breakfastPrep">
-					</ul>
-				</div>				
-			</div>
-			<div id="lunchContainer">
-				<div class="menuContainer">
-					<div class="containerTitle">
-					<h3>Lunch</h3>
-					<span>serve w/ seasonal fruit, milk</span>
-					</div>
-					<ul id="lunchLists">
-					</ul>				
-				</div>
-				<div class="prepContainer">
-					<div class="prepTitle">
-					<h4>Prep</h4>
-					</div>
-					<ul id="lunchPrep">
-					</ul>
-				</div>		
-			</div>
-			<div id="dinnerContainer">
-				<div class="menuContainer">
-					<div class="containerTitle">
-					<h3>Dinner</h3>
-					<span>serve w/ seasonal fruit, milk</span>
-					</div>			
-					<ul id="dinnerLists">
-					</ul>
-				</div>
-				<div class="prepContainer">
-					<div class="prepTitle">
-					<h4>Prep</h4>
-					</div>
-					<ul id="dinnerPrep">
-					</ul>
-				</div>			
-			</div>
-			<div id="snackContainer">
-				<div class="menuContainer">
-					<div class="containerTitle">
-					<h3>Snack</h3>
-					<span>serve w/ seasonal fruit, milk</span>
-					</div>				
-					<ul id="snackLists">
-					</ul>
-				</div>
-				<div class="prepContainer">
-					<div class="prepTitle">
-					<h4>Prep</h4>
-					</div>
-					<ul id="snackPrep">
-					</ul>
-				</div>			
-			</div>
-		</div> -->
-		<!-- <div id="shop-and-prep">
-			<div id="shoppingList">
-			</div>
-			<div id="prep">
-			</div>
-		</div> -->
-		
-		<!-- <div id="cookingDirection">
-		</div> -->
-		
-
-	</main>
-	<footer>
-	</footer>
-<!-- print 기능 넣기 -->
-	<script src="scripts.js"></script>
-
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Narae's Meal Planner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
