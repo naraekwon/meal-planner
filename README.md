@@ -22,7 +22,11 @@ npm run preview
 
 The live site is [https://naraekwon.github.io/meal-planner/](https://naraekwon.github.io/meal-planner/).
 
-Pushes to `master` build `dist/` and deploy it. One-time setup in the repo: **Settings → Pages → Source → GitHub Actions**.
+Pushes to `master` build the site and publish it to the `gh-pages` branch.
+
+One-time setup in the repo: **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `gh-pages` / `/ (root)` → Save**.
+
+If this is still set to `master`, the site stays blank because GitHub is serving the Vite source file instead of the build.
 
 ## How to use it
 
